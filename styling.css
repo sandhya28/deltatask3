@@ -1,0 +1,231 @@
+#login_page {
+
+			margin-left: 35%;
+			font-family: "Bradley Hand ITC";
+			font-weight: bolder;
+			border: 1px solid black;
+			font-size: 1.7vw;
+			padding: 2vw;
+			padding-left: 4vw;
+			padding-right: 4vw;
+			padding-top: 1vw;
+			padding-bottom: 1vw;
+			margin-right: 35%;
+			background: #EEE;
+		}
+#signup_page {
+				font-weight: bolder;
+			margin-left: 25%;
+			font-family: "Comic Sans MS";
+			color: green;
+			border: 2px solid green;
+			font-size: 1.7vw;
+			padding: 2vw;
+			padding-left: 4vw;
+			padding-right: 4vw;
+			padding-top: 1vw;
+			padding-bottom: 1vw;
+			margin-right: 25%;
+			background: #eee;
+
+			
+		}
+
+		h1 {
+			
+			font-size: 3vw;
+			font-weight: bolder;
+			margin-left: 35%;
+			font-family: "Bradley Hand ITC";
+		}
+		input[type="text"],input[type="password"],input[type = "number"],input[type = "email"]{
+			width: 100%;
+			height: 2.5vw;
+			font-size: 1.5vw;
+			font-family: "Comic Sans MS";
+			color: #333;
+			border: 0;
+    		outline: 0;
+ 		   	background: transparent;
+    		border-bottom: 2px solid blue;
+						
+		}
+		input[type = "text"]:focus:valid,input[type = "password"]:focus:valid,
+		input[type = "number"]:focus:valid,input[type = "email"]:focus:valid
+		{ 
+    		border-bottom: 3px solid yellow;
+    	}
+    	input[type = "text"]:focus:invalid,input[type = "password"]:focus:invalid,
+    	input[type = "number"]:focus:invalid,input[type = "email"]:focus:invalid
+    	{
+    		border-bottom: 3px solid red;
+    	}
+		textarea:focus:valid
+		{
+			outline: 0;
+			border: 3px solid yellow;
+		}
+
+		textarea:focus:invalid
+		{
+			outline-color: red;
+			border: 3px solid red;
+		}
+		textarea{
+			width: 100%;
+			font-family: "Comic Sans MS";	
+			font-size: 1.5vw;
+			background: transparent;
+    		border: 2px solid blue;
+    		color: #333;
+		}
+		header {
+			
+			
+			margin: 0;
+			padding: 0;
+
+		}
+		#logo{
+			float: left;
+		}
+		.header_tag{
+			font-family: "Comic Sans MS";
+			font-size: 5vw;
+			color: orange;
+			margin-left: 40%; 
+			margin-bottom: 0;
+			margin-top: 0;
+
+		}
+		h2{
+			font-family: "Comic Sans MS";
+			font-size: 2vw;
+			color: red;
+			margin-left: 50%;
+			margin-top: 0;
+		}
+		.loginbutton
+	{
+		background-color: green;
+    	color: white;
+    	padding: 1vw 2vw;
+    	text-align: center;
+    	border: none;
+    	border-radius:none;
+    	font-style: "Comic Sans MS";
+    	font-size: 1.2vw;
+    	cursor: pointer;
+    	margin-left:35%;
+	}
+	.loginbutton:hover
+	{
+	background-color: #006600;	
+	}
+		.submitbutton
+		{	
+		display: inline-block;
+		background-color: red;
+		margin-top: 3px;
+    	color: white;
+    	padding: 1vw 2vw;
+    	text-align: center;
+    	border: none;
+    	border-radius:none;
+    	font-style: "Comic Sans MS";
+    	font-size: 1.2vw;
+    	cursor: pointer;
+    	margin-left:32%;
+	}
+	.submitbutton:hover
+	{
+		background-color: #e60000;
+	}
+	.submitbuttonforsignup
+	{	
+		display: inline-block;
+		background-color: red;
+		margin-top: 3px;
+    	color: white;
+    	padding: 1vw 2vw;
+    	text-align: center;
+    	border: none;
+    	border-radius:none;
+    	font-style: "Comic Sans MS";
+    	font-size: 1.2vw;
+    	cursor: pointer;
+    	margin-left:43%;
+	}
+	.submitbuttonforsignup:hover
+	{
+		background-color: #e60000;
+	}
+	#user_login
+	{
+		color: white;
+		font-weight: bolder;
+		margin-left: 25%;
+		font-family: "Comic Sans MS";
+		border: none;
+		font-size: 1.7vw;
+		padding: 2vw;
+		padding-left: 4vw;
+		padding-right: 4vw;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		margin-right: 25%;
+		background: none;
+
+	}
+	h3
+	{
+		color: yellow;
+		margin-left: 35%;
+		font-family: "Comic Sans MS";
+		font-size: 3vw;
+		font-weight: bold;
+		margin-top: 0;
+	}
+	#search:focus
+	{		
+			margin-left: 30%;
+			width: 25%;
+			height: 3vw;
+			font-size: 1.6vw;
+			font-family: "Comic Sans MS";
+			color: #333;
+			outline: 0;
+ 		   	background: white;
+    		border: 3px solid green;
+	}
+	#search
+	{
+			margin-left: 30%;	
+			width: 25%;
+			height: 3vw;
+			font-size: 1.6vw;
+			font-family: "Comic Sans MS";
+			color: #333;
+			outline: 0;
+ 		   	background: white;
+    		border: 3px solid blue;
+	}
+	#searchuser
+	{	
+		background-color: blue;
+    	color: white;
+    	padding: 1.3vw 2vw 0.9vw 2vw;
+    	text-align: center;
+    	border: none;
+    	border-radius:none;
+    	font-style: "Comic Sans MS";
+    	font-size: 1.2vw;
+    	cursor: pointer;
+    }
+    #searchuser:hover
+    {
+    	background-color: #0000cc;
+    }
+    #result{
+    	color: white;
+    }
